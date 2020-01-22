@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <title>Jquery plugin</title>
+  </head>
+  <body>
+    <section class="bg-dark banner text-center">
+      <div id="particles"></div>
+      <div class="logo" >
+        <img data-tilt src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" class="img-fluid tilt">
+      </div>
+      <h1>SSD 204</h1>
+    </section>
+
+
+    <section class="py-5 my-5 ">
+      <div class="container">
+        <div class="slickSlider">
+          <div>
+            <a data-lightbox="slider" href="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg" class=w-100></a>
+          </div>
+          <div>
+            <a data-lightbox="slider" href="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg" class=w-100></a>
+          </div>
+          <div>
+            <a data-lightbox="slider" href="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg" class=w-100></a>
+          </div>
+          <div>
+            <a data-lightbox="slider" href="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg" class=w-100></a>
+          </div>
+          <div>
+            <a data-lightbox="slider" href="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg" class=w-100></a>
+          </div>
+          <div>
+            <a data-lightbox="slider" href="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2020/01/04/21/21/animal-4741740_960_720.jpg" class=w-100></a>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/lightbox.min.js"></script><
+    <script>
+      $('.slickSlider').slick({
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      arrows: true,
+      infinite: true,
+      speed: 5000,
+      autoplay:false,
+      autoplaySpeed:1000,
+       centerMode: true,
+       centerPadding: '60px',
+      draggable: true,
+
+      responsive: [
+    {  
+      breakpoint: 1000,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+    });
+    </script>
+  </body>
+</html>
